@@ -1,0 +1,29 @@
+package employee;
+class Name{
+    String n1="Robert";
+    String n2="Sam";
+    String n3="John";    
+    
+}
+class Yearofjoining{
+    int y1 = 1994;
+    int y2 = 2000;
+    int y3 = 1999;
+}
+class Address{
+    String a1 = "64C-WallsStreet";
+    String a2 = "68D-WallsStreet";
+    String a3 = "26B-WallsStreet";
+}
+public class Employee {
+    public static void main(String[] args) {
+        System.out.println("Name\tYear of joining\tAddress");
+        Name obj1 = new Name();
+        Yearofjoining obj2 = new Yearofjoining();
+        Address obj3 = new Address();
+        System.out.println(obj1.n1+"\t"+obj2.y1+"\t"+obj3.a1);
+        System.out.println(obj1.n2+"\t"+obj2.y2+"\t"+obj3.a2);
+        System.out.println(obj1.n3+"\t"+obj2.y3+"\t"+obj3.a3);
+    }
+    
+}
